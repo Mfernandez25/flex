@@ -1,0 +1,89 @@
+header{
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+    background: #ddd;
+}
+.container{
+    display: flex;
+    height: 400px;
+}
+.box-leteral{
+    background: #222;
+    flex: 1 1 0;
+    height: 400px;
+    color: #fff;
+    text-align: center;
+
+}
+.main-box{
+    background: red;
+    flex: 2 1 0;
+
+    color: #fff;
+}
+
+/*ejercicio 2*/
+.ejercicio-2{
+    border-top: 1px dashed #222;
+    text-align: center;
+    margin-top: 40px;
+}
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+.rectnagulo{
+    width: 500px;
+    background: red;
+}
+.container-2{
+    width: 750px;
+    height: 100%;
+    display: block;
+    position: relative;
+    background: #002868;
+}
+.container-2> .box{
+    display: flex;
+    justify-content: space-between;
+}
+.container-2> div:first-child{
+    margin-bottom: 20px;
+}
+.container-2> div:first-child .cuadrado{
+    margin-right: 20px;
+    border-right: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+}
+.container-2> div:first-child .rectnagulo{
+
+    border-left: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+}
+.container-2> div:nth-child(2) .cuadrado{
+    margin-right: 20px;
+    border-right: 15px solid #fff;
+    border-top: 15px solid #fff;
+}
+.container-2> div:nth-child(2) .rectnagulo{
+
+    border-left: 15px solid #fff;
+    border-top: 15px solid #fff;
+}
+.vertical{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+}
+.line{
+    width: 30px;
+    height: 100%;
+    background: blue;
+}
